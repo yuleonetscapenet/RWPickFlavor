@@ -55,6 +55,7 @@ public class PickFlavorViewController: UIViewController {
   
   public override func viewDidLoad() {
     super.viewDidLoad()
+    print("RWPickFlavor 0.2.0")
     collectionView.delegate = self
     loadFlavors()
   }
